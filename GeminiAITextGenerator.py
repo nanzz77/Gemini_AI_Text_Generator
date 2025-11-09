@@ -14,7 +14,7 @@ st.caption("Powered by ----")
 # --- API Key and Model Configuration ---
 try:
     # Configure the Gemini API with the key from Streamlit secrets
-    genai.configure(api_key="AIzaSyATtupwjgh47hGzV6WVI9OCMn_oFs7i_RE")
+    genai.configure(api_key="enter your api key here")
     # Create a Gemini model instance
     model = genai.GenerativeModel('gemini-2.5-flash')
 except Exception as e:
